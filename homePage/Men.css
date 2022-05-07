@@ -1,0 +1,458 @@
+/*------------------ Navbar ---------------------------------*/
+#navbar {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+#navbar>div>div {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar>div>div>div {
+    width: 25%;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly
+}
+
+#country {
+    border: 0;
+    font-weight: bolder;
+    color: #333333;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    width: 25%;
+
+}
+
+
+
+#navbar1 {
+    color: #333333;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#navbar2>select {
+    color: #333333;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.logo {
+    height: 80px;
+    width: 120%;
+    display: block;
+    margin: auto;
+
+}
+
+#card {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: #333333;
+    justify-content: center;
+    align-items: center;
+}
+
+#card>div {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#card>div p {
+    color: white;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.womenMenKids1 {
+    /* border: 1px blue solid; */
+    padding: 0px;
+    font-size: 14px;
+}
+
+.womenMenKids {
+    padding: 0px;
+    margin-top: 30px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.womenMenKids>p {
+    font-size: 14px;
+    margin-right: 10px;
+
+
+}
+
+a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: 3px underline yellow;
+}
+
+.womenMenKids2 {
+    width: 100%;
+}
+
+.womenMenKids3 {
+    /* border: 1px blue solid; */
+    padding-top: 25px;
+}
+
+#navbar1+hr {
+    border-top: 1px solid rgb(199, 196, 196);
+    width: 100%;
+}
+/* ----------------------Navbar End ------------------------------------*/
+
+
+/* Women Page */
+
+#border{
+    background-color:  #f3f3f3; 
+    /* position: static; */
+
+}
+.section1>div>img{
+    height: auto;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+#position{
+    padding: 10px 150px 10px 20px;
+    position:absolute;
+    width:auto;
+    height: auto;
+    background-color: white;
+    bottom: 1px;
+    left: 100px;
+}
+#position>h2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #333333;
+}
+#position>p{
+    cursor: pointer;
+    font-size: 13px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;  
+
+}
+.section1>div+div{
+    display: flex;
+    justify-content: space-between;
+    height:auto;
+    margin: auto;
+    margin-top: 150px;
+    position: relative;
+
+} 
+#center{
+    padding: 20px 100px 20px 100px;
+    position:absolute;
+    width:auto;
+    height: auto;
+    background-color: white;
+    left:570px;
+    bottom:200px;
+    cursor: pointer;
+
+}
+#center>h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #333333;
+}
+#center>h6{
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #333333;
+}
+.section1>div+div>div{
+    height:auto;
+    margin: auto;
+   
+}
+
+.section1>div>div h1{
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    color:#333333;
+}
+
+.section1>div>div p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 14px;
+    color: #333333;
+}
+
+.section1>div>div h6{
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #333333;
+}
+.section2{
+    margin-top: 75px;
+}
+.section2>div{
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+}
+.section2>div h3{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+}
+.section2>div p{
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.section2>div p+p{
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.section2>div>div>div{
+    margin: auto;
+    width:auto;
+}
+
+.section3{
+    background-color: white;
+    height:auto;
+    margin-top: 72px;
+    display: flex;
+    padding:75px 
+}
+
+.section3>div{
+    display: flex;
+    align-items: center;
+}
+
+.section3>div>div{
+    display: grid;
+    grid-template-columns: 3,1fr;
+    grid-template-rows: 1,1fr;
+}
+
+.section3>div>div img{
+    display: block;
+    margin:auto;
+    padding: 20px;
+}
+
+.section3>div>div h3{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.section3>div>div p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.section4{
+    margin-top: 75px;
+}
+.section4>div{
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+}
+.section4>div h3{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+}
+.section4>div p{
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.section4>div p+p{
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.section4>div>div>div{
+    margin: auto;
+    width:auto;
+}
+.section5{
+    margin-bottom: -100px;
+    margin-top: 75px;
+    height:auto;
+}
+
+.section5>div{
+    margin: auto;
+    height: auto;
+    width:80%;
+    position: relative;
+
+}
+
+#center3{
+        padding: 20px 100px 20px 100px;
+        position:absolute;
+        width:auto;
+        height: auto;
+        background-color: white;
+        bottom: 550px; 
+        left: 30px;   
+}
+#center3>h2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    
+}
+#center3>p{
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+
+}
+.right{
+    padding: 0px 0px 10px 0px;
+    width: 25%;
+    background-color: white;
+    position: relative;
+    left: 800px;
+    bottom:600px;
+}
+.right>p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 11px;
+    color: #333333;
+}
+.right>h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    color: #333333;
+    cursor: pointer;
+
+}
+.section6{
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+   
+}
+
+.section6>div{
+    height:auto;
+    width:90%;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.section6>div>div{
+    width:50%;
+}
+#center4{
+    padding: 20px 150px 20px 20px;
+    position:absolute;
+    width:auto;
+    height: auto;
+    background-color: white;
+    bottom: 30px;
+    left: 30px;
+}
+
+#center5{
+    padding: 20px 150px 20px 20px;
+    position:absolute;
+    width:auto;
+    height: auto;
+    background-color: white;
+    bottom: 30px;
+    right: 30px;
+    
+}
+#center4>h2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    
+}
+#center4>p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+#center5>h2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+#center5>p{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}

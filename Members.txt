@@ -1,0 +1,6 @@
+Shaili - Signip / Register page
+Arul - Home page
+Shanu - Product page
+Niraj - Product Detail page
+Haris - Cart page
+Ayush - Address page
