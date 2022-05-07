@@ -1,0 +1,137 @@
+#navbar {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+#navbar>div>div {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar>div>div>div {
+    width: 25%;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly
+}
+
+#country {
+    border: 0;
+    font-weight: bolder;
+    color: #333333;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    width: 25%;
+
+}
+
+
+
+#navbar1 {
+    color: #333333;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#navbar2>select {
+    color: #333333;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.logo {
+    height: 80px;
+    width: 120%;
+    display: block;
+    margin: auto;
+
+}
+
+#card {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: #333333;
+    justify-content: center;
+    align-items: center;
+}
+
+#card>div {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#card>div p {
+    color: white;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.womenMenKids1 {
+    /* border: 1px blue solid; */
+    padding: 0px;
+    font-size: 14px;
+}
+
+.womenMenKids {
+    padding: 0px;
+    margin-top: 30px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.womenMenKids>p {
+    font-size: 14px;
+    margin-right: 10px;
+
+
+}
+
+a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: 3px underline yellow;
+}
+
+.womenMenKids2 {
+    width: 100%;
+}
+
+.womenMenKids3 {
+    /* border: 1px blue solid; */
+    padding-top: 25px;
+}
+
+#navbar1+hr {
+    border-top: 1px solid rgb(199, 196, 196);
+    width: 100%;
+}
