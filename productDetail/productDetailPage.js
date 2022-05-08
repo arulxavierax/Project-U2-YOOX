@@ -70,7 +70,7 @@ function displayDataProduct(data) {
         var toCartArr = []
         toCartArr.push(ele);
         localStorage.setItem("cartProduct", JSON.stringify(toCartArr));
-        window.location.href = "./cartPage/cart.html";
+        window.location.href = "../cartPage/cart.html";
         // Arul link the page with your page 
     }
 

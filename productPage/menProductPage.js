@@ -484,5 +484,5 @@ function funInsideProductPage(data) {
 
     productDetailArr.push(data);
     localStorage.setItem("selectedProduct", JSON.stringify(productDetailArr));
-    window.location.href ="./productDetail/productDetailPage.html";
+    window.location.href ="../productDetail/productDetailPage.html";
 }
