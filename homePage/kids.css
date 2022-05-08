@@ -344,7 +344,7 @@ a:hover {
 #heading{
     width:100%;
     height:auto;
-    margin-bottom: -120px;
+    margin-bottom: -50px;
     margin-top: 70px;
 }
 
@@ -358,4 +358,13 @@ a:hover {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+#heading>div+div{
+    margin: auto;
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+
 }
