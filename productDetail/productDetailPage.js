@@ -63,11 +63,11 @@ function displayDataProduct(data) {
     });
 
 
-    var toCartArr = []
+    var toCartArr = JSON.parse(localStorage.getItem("cartProduct"))||[];
 
     function funToCart(ele) {
         // console.log("Click");
-        var toCartArr = []
+        // var toCartArr = []
         toCartArr.push(ele);
         localStorage.setItem("cartProduct", JSON.stringify(toCartArr));
         window.location.href = "../cartPage/cart.html";
