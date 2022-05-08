@@ -221,8 +221,9 @@
     <form action="signup.html" id="form">
         <input placeholder="FIRST NAME*" type="text" id="fname">
         <input placeholder="LAST NAME*" type="text" id="lname">
-        <input placeholder="E-MAIL*" type="email"  id="email" />
-        <input placeholder="PASSWORD*" type="password" id="pass"/>
+
+        <input placeholder="E-MAIL*" type="email"  id="email" value=""/>
+        <input placeholder="PASSWORD*" type="password" id="pass" value=""/>
 
         <!-- male female -->
 
@@ -246,48 +247,33 @@
         <input id="reg" type="submit"  value="REGISTER" />
      </form>
      <div id="footer">
-     <p>CREATED BY SHAILI SRIVASTAVA, ARUL XAVIER, SHANU KUMRAWAT, NIRAJ KENDRE ,MOHD. HARISH, AYUSH SINGH</p>
+     <p>CREATED BY SHAILI SRIVASTAVA, ARUL XAVIER, SHANU KUMRAWAT, NIRAJ KENDRE ,MOHD. HARIS, AYUSH SINGH</p>
      </div>
 </body>
 </html>
 
 <script>
-    document.querySelector("#form").addEventListener("submit",formsubmit)
-   
-   var arr=JSON.parse(localStorage.getItem("userdata"))|| [];
-     function formsubmit(){
-         event.preventDefault()
-          console.log("click")
-         
-        var obj={
-            fnam:form.fname.value,
-            lnam:form.lname.value,
+    var form = document.querySelector("#form")
+    form.addEventListener("submit",function(event){
+        event.preventDefault();
+        if(form.fname.value=="" || form.lname.value=="" || form.email.value=="" || form.pass.value=="" || form.mob.value=="")
+     {
+         alert("Enter Credentials")
+     }
+     else{
+         var data={
             mail:form.email.value,
             pas:form.pass.value,
-            bday:form.dob.value,
-            code:form.CC.value,
+            fnam:form.fname.value,
+            lnam:form.lname.value,
             num:form.mob.value,
-        //    fname:nam, lname:lnam,  email:mail,  pass:pas,dob:bday,CC:code,mob:num,
-        };
-        console.log(obj)
-
-    
-         console.log(arr)
-         if(obj.fnam=="" || obj.lnam=="" || obj.mail=="" || obj.pas==""|| obj.code=="" || obj.num==""){
-             alert("Fill the details")
          }
-         else{
-             alert("Registeraton Successful")
-             arr.push(obj)
-            localStorage.setItem("userdata",JSON.stringify(arr))   
-            window.location.href="../homePage/navbar,women.html"
-         }
-           
-     
-    
-      }
+         localStorage.setItem("userdata",JSON.stringify(data))  
+         window.location.href="login.html" 
 
 
+     }
+    })
    </script>
    
 
