@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../productDetail/navBar.css">
+    <style>
+
+   #myyoox{
+       margin-top: 70px;
+       border-top: dotted 5px;
+       border-bottom: dotted 5px;
+       height: 200px ;
+       background-color: rgb(243,243,243);
+       text-align: center;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       line-height: 10px;
+   }
+   #p1{
+       font-weight: 700;
+       font-family: sans-serif;
+   }
+   #signupA{
+       height: 180px;
+       width: 25%;
+       margin:auto;
+       margin-top: 30PX;
+       margin-bottom: 30PX;
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows: repeat(3,40px);
+       gap: 10px;
+       text-align: center;
+      
+      
+   }
+   .p2{
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   #signupA>.signupB:nth-child(2){
+       background-color: rgb(60,85,162);
+   }
+   #fb{
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-size: 25px;
+      color: white;
+       font-weight: 600;
+   }
+   #signupA>.signupB:nth-child(2):hover{
+       background-color: rgb(140, 140, 211);
+   }
+   
+   #signupA>.signupB:nth-child(3){
+       border: 1px solid rgb(223, 221, 221);
+   }
+   #signupA>.signupB:nth-child(3):hover{
+       background-color: rgb(140, 140, 211);
+   }
+   #form{
+      height: 600px;
+       width: 25%;
+       margin:auto;
+       display: grid;
+       grid-template-rows: repeat(8,40px);
+       gap: 30px;
+    }
+    #fname{
+        color: black;
+        background-color:rgb(243,243,243);
+        border: 1px solid rgb(243,243,243);;
+    }
+    #lname{
+        background-color:rgb(243,243,243);
+        border: 1px solid rgb(243,243,243);
+    }
+    #email{
+        background-color:rgb(243,243,243);
+        border: 1px solid rgb(243,243,243);;
+    }
+    #pass{
+        background-color:rgb(243,243,243);
+        border: 1px solid rgb(243,243,243);
+    }
+    #dob{
+        background-color:rgb(243,243,243);
+        border: 1px solid rgb(243,243,243);
+    }
+    #mob{
+        background-color:rgb(243,243,243);
+        border: 1px solid rgb(243,243,243);
+        height: 40px;
+    }
+    #a2{
+        background-color:rgb(243,243,243);
+        border: 1px solid rgb(243,243,243);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+        text-align: center;
+        height: 38px;
+    }
+   .p3{
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-size: 12px;
+   }
+  #form>.gen{
+       display: flex;
+   }
+   #chck{
+        height: 140px;
+        font-size: 12px;
+        background-color:rgb(243,243,243);
+        border: 1px solid rgb(243,243,243);
+        opacity: 0.5;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   #reg{
+       color: white;
+       background-color: black;
+       font-weight: 700;
+       font-family: sans-serif;
+       height: 40px;
+   }
+   #reg:hover{
+       background-color: rgb(36, 34, 34);
+   }
+   #footer{
+       height: 100px;
+       background-color: black;
+       margin-top: 400px;
+       border-top: dotted 7px;
+       color: white;
+       text-align: center;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   }
+   .google{
+       height: 100%
+   }
+    </style>
+</head>
+<body>
+    <!------------ Navbar------------- -->
+    <div id="navbar">
+        <div>
+            <!-------------- First Box -------------->
+            <div id="navbar1">
+                <div id="navbar2">
+                    <select name="country" id="country">
+                        <option value="india"><u>INDIA</u></option>
+                        <option value="UNITED KINGDOM"><u>UNITED KINGDOM</u></option>
+                        <option value="GERMANY"><u>GERMANY</u></option>
+                        <option value="SINGAPORE"><u>SINGAPORE</u></option>
+                        <option value="UNITED STATES"><u>UNITED STATES</u></option>
+                        <option value="SPAIN"><u>SPAIN</u></option>
+                        <option value="SOUTH KOREA"><u>SOUTH KOREA</u></option>
+                    </select>
+                    <p><u>CUSTOMER CARE</u></p>
+                </div>
+                <div>
+                    <p>&#9998<u><b><a href="../signUp/register.html">REGISTER</a></b></u></p>
+                    <p>&#128275<u><b><a href="../signUp/login.html">LOGIN</a></b></u></p>
+                </div>
+            </div>
+            <hr>
+            <!-- Second Box -->
+            <div class="womenMenKids1">
+                <div class="womenMenKids">
+                    <p><b><a href="../homePage/navbar,women.html">WOMEN</a></b></p>
+                    <p><b><a href="../homePage/men.html">MEN</a></b></p>
+                    <p><b><a href="../homePage/kids.html">KIDS / DESIGN+ART</a></b></p>
+                </div>
+                <div class="womenMenKids2"><a href="../homePage/navbar,women.html"><img class="logo"
+                            src="https://pbs.twimg.com/profile_images/1500895073965416449/ynLa9JCR_400x400.jpg" /></a>
+                </div>
+                <div class="womenMenKids3">
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-heart-o"></i>
+                    <i class="fa fa-shopping-bag"><a href="../cartPage/cart.html"></a></i>
+                </div>
+            </div>
+        </div>
+        <!-- card selection  -->
+        <div id="card">
+            <div>
+                <p>NEW ARRIVALS</p>
+                <p>DESIGNERS</p>
+                <p>CLOTHING</p>
+                <p>SHOES</p>
+                <p>ACCESSORIES & BAGS</p>
+                <p>8 BY YOOX</p>
+                <p>YOOXGEN</p>
+                <p>COLLABORATIONS</p>
+                <p>BEST OFFERS</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- NavBar End -->
+   <div id="myyoox">
+       <p id="p1">MYYOOX</p>
+       <p>REGISTRATON</p>
+       <p>Take advantage of a faster checkout and enjoy promotions for registered customers only</p>
+       <a class="atag" href="https://www.yoox.com/images/yoox80/banners/1292_2_Registrazione_ROWnoM.png?634485886601286852">Discover all the benefits</a>
+   </div>
+    <div id="signupA">
+      <div class="signupB">
+          <p class="p2">REGISTER WITH YOUR SOCIAL MEDIA ACCOUNT</p>
+      </div>
+     <div class="signupB">
+         <a id="fb" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=225447960817285&kid_directed_site=0&app_id=225447960817285&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv5.0%2Fdialog%2Foauth%3Fclient_id%3D225447960817285%26scope%3Dpublic_profile%252Cemail%252Cuser_birthday%252Cuser_age_range%26redirect_uri%3Dhttps%253A%252F%252Fwww.yoox.com%252Fmyoox%252Flogin%252FExternalLoginCallback%26state%3D__provider__%253Dfacebook%2526__sid__%253D811307494f31480093357f7360e8f418%26display%3Dpopup%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D1a9ebbe3-1637-4878-a618-a72bcaf97420%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.yoox.com%2Fmyoox%2Flogin%2FExternalLoginCallback%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D__provider__%253Dfacebook%2526__sid__%253D811307494f31480093357f7360e8f418%23_%3D_&display=popup&locale=en_GB&pl_dbl=0">f</a>
+     </div>
+     <div class="signupB">
+         <a id="mail" href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&client_id=892880188578-vsebmgf7bat13cgbmk5rv1tn517srbfh.apps.googleusercontent.com&scope=profile%20openid%20email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.birthday.read&redirect_uri=https%3A%2F%2Fwww.yoox.com%2Fmyoox%2Flogin%2FExternalLoginCallback&state=__provider__%3Dgoogle%26__sid__%3D31f73556d6c04f559676c1aefc764517&flowName=GeneralOAuthFlow"><img class="google" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAABhlBMVEX09PTjPis6fOwsokzxtQA2euz6+vhYi+Xz9PdajOn09vH09PNkleo3eenz9fItoUzw9vT38vfgPyvwtgAuokn09/rkPS7kPiny9vHysQD38/I7fOnjOCPeQSnmPSsvoE7gKxPhMhrv+O/jiX/0sADz0IAtdeo5fucroj8anUD48vrv+/fy7un24+L129rv1c/usq7klYvefG/hYlXhSjrfUkfial/tu7vz4dvkl4fwxLveW0zoopvu3dLy0cTtopXhdGjtwbXz6dzoLx/nm5vceXLminvfioTos6nXMQ306erdSTHdcGDaVELYg2/jrJ3xrjTfWxDy47DochPuwUnokBDz6cjzoA/eTRzvy2TrgBHv253jWCD27NfyjQ/uvDV7oOTX4fi3ze2atuzwz3myyvD026bv1I63rR2aqiGs07dipzBRr27MshRFoDjN6Nd1t4KEpiviuA7B4MSh061ntX4hgbQ0jpkwmHDF2u8/pl3Y6t0wlX81g9Ezi7M1irQzko1tr5uEd6UmAAAM5klEQVR4nO2djX/S1hrHQ4HsNKeGvJ0QQoCEskBobautOrvOOavVdtv1rnPeeXedda5zVjbYittatvvyn99zUlQqCaSElubl6+un9sOH/Hxez/MkUFRMTExMTExMTExMTExMTMzZADmVBYCHEP+d4yhAvsaxLPkD8IACANj/FOMM4DnAKHOIYpn5iwuLNgsLW/MqRytlDrCMQvGTfo/nGMBx9Nbi0qXLyysJQ3+NJly5evn2tcV5VK8jZtLv8TzCQgogpH5wb/ZK1tANTUskZFlIdMlmsxr+qrB8fXWLRtinsQeDSb/l8wKErMqBOWX10ofY0rIJV7KapmtX1z5SOESVOSqOggSiAmJvzMq6UZTdtetSwApe+XgB1aE66Td+PoAU2lr73DCyMvbRYeoJsoy/TdNufqKgqFufigWAiF6YNQxtqNkdRzNWluY5nqNQdI0QknyxeMfQhvusg4CbK/dVpKpRTiH8Rzd1TRaKI8hXlLP6ylJkXZiDHFIvkQplaMBzBFc1clFfvoEoJoKVNGm+rhWMkZTrQdM35uvKpC/m7AHg1s1NeRSv7aVQFNZXPqEnfTFnDAsgfS9hyFlhuEIDKQpFIavPziP8mpO+qLMDMPDyaPnWiez6lQ+4Oh8d/eYWVgxZGC1l9CMUtM17CqdGQD/AQshz1wqkxRiX9eEIKuu3aRAB+XCLBuZu62MSrgf9ThTaD3KWvKH7zRgOyJtXQ68fpCA3f9PwXa/0Uyzodyd9dacNjk4Aqzd27cjJ6voGHfbul+Uo5jN9XAm3l4K+QYU/dQD1sjG2hPsWWdDv8lzozw4Y+s74c25WFgR9I/Rpg5yMfnwKFUsB294s4iZ9cacPuqeP33Fx26vfVcPf8bJocdOTHkKiiH/JCU3TDBtNyxYFwfFYsChkZf0uHf6hG6turWAVPJmToK3r2pWbs9fX7i+trV3fuPrppm7g6qT/ewsyzrl8FM776M8MT8ZXzOord+4tzjMUwnCKghALLq6uXS3o/fOkYsG4xIfe9HDFh5Y8BD4hoemFjVWV5hCgIAvtfSAyjuOwlhfvXdUNckLYs30g46xBNhRCDocWtaGeS5x2eUnF1uagB+TQHLp4e0UvakL3/0GQNX2WDn3SwPDKsjY07hX1D28oiCqzTqMfnuepOqIvrhlv1ji0gjHL1COwMsSiNUMe1m4Yn19DgGcB75hHAWQpheURvTWrYyfPYojnhr9Tw/C35IG2lyV+eH1rzsvQlp1b/XRdkAU5q88qYT8lOGLu5uDBhiwYny/Wy7yX6hfwSv1v64Us9lwlCiNKFnCLRsL9iK9YKBb12S1W4VnOy8CbBwq8r2fJ+R4ThVaXYpcHHVIJxezm2sl2LQBaLcxy0fBcjl9dH3jGVzCuzZ2s9i1TaJGNgudiQPnvX8gJ8sMxaySK2ipNndD6VAhYLgKeiwHbYuVLMtV10g9/TV+N170HoD6oiKmvNOf5kFDUPkFKBFekvAIeVlJiLvWPr2XHAKjfr5cjEsVGQOHRoxRBzH0hF99pPLJC0diI2nrUiQDKLTF1hPjPviO7rLa8xUWh7RoVoH6Ty+W6+n319XH5hKy2EOHVbi+UH7y2Pqxf5V9yrwHKxhqa9Ps733CPUz3gCkbr0U/7MHbcwaDnqWOI3xbeFjDGjWj0XaMCAPMg16NdKpUTSQWDaxhZSGiXI7QROgLYtm6JudQ74AoGOzAW0FiM6k0Z3gAU3O5TD9vgt1oCW6B2Zw7E8g1CRY9yYp9+KeLABVlf9HS8F2FU5Um/eHYG/kLWlif97s494LGjejiBpL7Ul+J2bTAQOYS+roCprz7yUDKzNFOmRyfYoRWi527ypVIPvBxT0TvT0++NzF9PT/8aTxFAPXKVL/fcS7dLz5j59KiY5neBbqgB+8Td+h56OeXD8k2Njvks0PJRjEPV0g194ryXoS4zc2F09armTrCzk0viJYenjwDroeH1JV/enAm0fOihU9FMjE+svM/zHgZEvuSbSk8Hu63ZdpFPFCvbng5baD/ypfN5EOTbLME37on3oSf5/Flf3nwa5AeugecVl9yRSz329Aq+rM/E8gXae993tT7x1hlY35T5lHHctQwGaIB83hYL/Mr3HeMlv59T0Pdu6qVEbyHdt3xBXn0eJJ+3EZtf+XbpAPcd6Ht35/VW0I5BvuCOQv3HPl+ZN7zy5cT5M8m8uzQMcOp4XnGxvdRZ1H1EPjXImfeHyXYdOPOqAbY+ats19OW2PW12+6/7AvyEXfDQXb7npy9fvoq7jgDf6gseu7S8oph6BICHksyf9RH5AnzXFnBY0egan/hk/tSPS9PVNIABlo9nnKfkdu547OXCfGXefLoa6AOXQZO21Dde6lm/h/WnfomnyoA5b+6B4i32DR9IuuoX8FERcFqwsmNfRUz92PEy69iZHsZ701UXAdMXngVavnLddccl98Laq3t4Ca7OgcEgkHezP9yznfo1niKsyjnnjpz4Mik1PIR1UKaYIbBPXSfp5kGQMwe5k/f7ipN6P/2cLCWt5lg+9EDdNV2sL2/OBfi0z34W8A+5vlllTnyRKUnJUq3F+26oIMkubskjXS2P4yomBiR9R9+w7ddfSpIkYQUzTd9jHAippxfcQl862ImXwD54R77Krz8npSQRL2O1VN+xiWWeuYe+3XpwW44jjld+Yir3Yy2TfI3l2/wgUt9zrfvMgyDvGNgcW8/NVcQXyeQb+TJWw++dqCw4cDW+9DQIcMN7BGSevLmjMiX++hI7bfItVhup/k6UGNcFwPSFHTrQLS+B7/FeUq8cI2MlO4gaubiAENIHblULLltw0Rx062O5t2d+LyScNI7Jl7Qa7OgOxkIKzZh5F/WmLgDoPzVNGp571L2Z7ZdkUiq9I1/SatE+PnZSfWa6dWxpc4fhAi8fC+DDXA7r99PLZCbZT8baw43tqK994H6clU7vBt1zKbtyhk/EnPijlHSUD7vzPj/ijZUsmHY/rMrngzsj6gGycLsi/mIlMxkn+XADYu2PGOG5GdeGw245gu65R6jKk5eSs+l1HXj/6JOfTgRUcb/hdtI3RVb7QuC7BI7fs7CVuapH7I8+sf8S9dKuJ32kZg7Jo4l4xDawl7rKhytpq33S7g3SO+bUIOPbDcunt0HA7lvuxmcboNVSVK8PlIMMUCmwY1bd00Y6PY1gSJwXUir9quZufbYBWo0O77H9wOKhg2kz7W57+TTZTAtH5sDWB0BnQOyzs0dGstoeyz9Ildu/mXn3uDeVrla5IK8GvQvHt62B5keKGquxz1Ng4Ak0sU8e7Tdqtd/zU2mXdu0o8p3VpZ0FKuIOh4Q/OwI2mgDXgKqLF2OnBWp5v2FJJan2R3XK3XmnyyHJG0eoqN48flTlaIKlGrZA5Lp9wFJ0ea9hZUrEWmul3wZM2PxPUc4VEKK2NUw+SSrhEJhpNxXA24FftX8H9lPrVZUu77dKlpSRyP8D/ln6PY2jXF8IzJPDAjYkafcNkH5lDfPeI2rWYWuvo0C+Th60bj9uXVU6++1GyeoNAJmS9CcWry8CmtVgLwY5A/nO4dDoZ4NNUMJCNVrtdnsP0263iHIWOS08bsC1P/7q79vy5nehCnxdWL45PHt0DYv8xBK+gQw2SXKWjr2AhAPgv3Hn1pND0jih7IAwfnARoJS2V/08I9V+x+b31n+r5tQ0CvAyvTukWWh7DH/eyWAH7tkyyOfNAyZsacOGPLsAp49h6fekSLVDUsGkXwe+XRWoYXReijQf5fHrhxPKv/N2/sVebD5jQqodRapnrF9t3PplpNqfVfN1xRfiR7GzKiT2N2b5SAt3+BfxXnMHBfnZBV4ARL+xG2Ct9B9zypwJr+N2wf471xp7/YJbYOu/1Znwf3oMwP5Lj71+wTW1VPsf4kMc+HpQ9jJuY99R9ZPsdYVJX9hZACmoNg9xATM+/TIWGTZFQj2Cisqvxml81uF+WGtlR1SIA6CVGUsKkZJkzhT4XbQTUu+QU/dxyGft0V7usAkVEPKgXfKfgsmIE8HQnS4PBUC2Xm5ZPnpgiRwKlto0WbAM4xnVECDLq51XliU57l4Nx96uLEfOb9+AsyWuYbCAo1mflWx16pH4ZG0XIARIpZotYoHJvlGGC5I9VScjOTvfRtBtj6HwTKd9iE2w5LWQziQtq7FHPoA7Brsw4nl7hmsN3uToGh/+tsNWk6eYyHQZA2GhypOP3cUKHlq9iUSSupM1yd6BIXtEWLtMo93keDD67SBhBdSZzp4t4dE8PIMplYhB2roR42y09ztlPoxzXP9AjkIqjTrNduvVYSnTM+dNlg5ftbByCnZzAKLWn3nlyCMB2aXilHKn2dwnNDudcpljaawcxbIsZMdyE3r4wXZGgUg2FDExMTExMTExMTExMTExk+X/qPi+L8CvMAAAAAAASUVORK5CYII=" alt="">
+            
+         </a>
+     </div>
+     <p class="p2">OR WITH YOUR EMAIL</p>
+   </div>
+
+    <form action="signup.html" id="form">
+        <input placeholder="FIRST NAME*" type="text" id="fname">
+        <input placeholder="LAST NAME*" type="text" id="lname">
+        <input placeholder="E-MAIL*" type="email"  id="email" />
+        <input placeholder="PASSWORD*" type="password" id="pass"/>
+
+        <!-- male female -->
+
+        <p class="p3">If you are over 18 years old, celebrate your birthday with us: We have a surprise for you.</p>
+        <input placeholder="dd/mm/yyyy" type="text" id="dob">
+
+        <select name="countryCode" id="CC">
+            <option data-countryCode="INDIA" value="91">INDIA(+91)</option>
+            <option data-countryCode="US" value="1">USA (+1)</option>
+            <option data-countryCode="BR" value="55">Brazil (+55)</option>
+            <option data-countryCode="AU" value="61">Australia (+61)</option>
+            <input type="text" placeholder="MOBILE*" id="mob">
+           <p class="p3">By entering your phone number, you agree to be contacted by SMS for marketing and promotional purposes</p>
+        </select>
+       
+        <p id="a2">I declare that I have read and accept the<a href="https://www.yoox.com/legal/UseTermsMyoox"> MYOOX Terms and Conditions of Use</a></p>
+       <p id="chck"><input type="checkbox" name="" id="">I agree to the use of my personal data in order to be updated on new arrivals, informed about exclusive items and contacted as part of targeted marketing initiatives related to services offered by YOOX.
+        By analyzing my personal data, order history and browsing habits, YOOX can improve my shopping experience with suggestions that correspond to my interests.
+        For further information, please consult the <a href="https://www.yoox.com/legal/PrivacyPolicy">Privacy Policy</a>.</p>
+        
+        <input id="reg" type="submit"  value="REGISTER" />
+     </form>
+     <div id="footer">
+     <p>CREATED BY SHAILI SRIVASTAVA, ARUL XAVIER, SHANU KUMRAWAT, NIRAJ KENDRE ,MOHD. HARISH, AYUSH SINGH</p>
+     </div>
+</body>
+</html>
+
+<script>
+    document.querySelector("#form").addEventListener("submit",formsubmit)
+   
+   var arr=JSON.parse(localStorage.getItem("userdata"))|| [];
+     function formsubmit(){
+         event.preventDefault()
+          console.log("click")
+         
+        var obj={
+            fnam:form.fname.value,
+            lnam:form.lname.value,
+            mail:form.email.value,
+            pas:form.pass.value,
+            bday:form.dob.value,
+            code:form.CC.value,
+            num:form.mob.value,
+        //    fname:nam, lname:lnam,  email:mail,  pass:pas,dob:bday,CC:code,mob:num,
+        };
+        console.log(obj)
+
+    
+         console.log(arr)
+         if(obj.fnam=="" || obj.lnam=="" || obj.mail=="" || obj.pas==""|| obj.code=="" || obj.num==""){
+             alert("Fill the details")
+         }
+         else{
+             alert("Registeraton Successful")
+             arr.push(obj)
+            localStorage.setItem("userdata",JSON.stringify(arr))   
+            window.location.href="../homePage/navbar,women.html"
+         }
+           
+     
+    
+      }
+
+
+   </script>
+   
+
+
+
+
+
+
+
+
+
+
+
+    
