@@ -184,7 +184,7 @@ a:hover {
 .section2>div{
     margin: auto;
     height: 100%;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -207,9 +207,24 @@ a:hover {
     font-weight: bolder;
 }
 .section2>div>div>div{
+    padding-top: 180px;
     margin: auto;
     width:auto;
 }
+
+.section2>div>div>div h3{
+    padding: 0px 20px 0px 0px;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.section2>div>div>div {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 
 .section4{
     margin-top: 75px;
