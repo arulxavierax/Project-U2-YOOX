@@ -1,0 +1,360 @@
+body {
+   background-color: rgb(232, 232, 232);
+}
+
+
+
+#mainDiv {
+   width: 75%;
+   height: auto;
+   /* border: 1px solid blue; */
+   margin: auto;
+   display: flex;
+}
+
+
+#details {
+   width: 75%;
+   height: 1500px;
+   /* border: 1px solid blue; */
+   /* background-color: white; */
+
+}
+
+#upper{
+   width: 95.5%;
+   height: 100px;
+   /* border: 1px solid red; */
+   margin-bottom: 10px;
+   font-family: 'Montserrat', sans-serif;
+   background-color: white;
+   padding-left: 15px;
+   padding-top: 15px;
+}
+
+.emailtext{
+   width: 100%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   padding: -5px;;
+   font-size: 14px;
+
+}
+
+#productShippingDetails {
+   width: 25%;
+   height: 500px;
+   /* border: 1px solid blue; */
+}
+
+#email {
+   width: 100%;
+   height: 120px;
+   /* border: 1px solid red; */
+   margin-bottom: 10px;
+}
+
+#shipping {
+   width: 95%;
+   height: auto;
+   /* border: 1px solid red; */
+   padding: 10px 10px 10px 10px;
+   background-color: white;
+}
+
+.shipping1 {
+   width: 100%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   padding: -5px;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.shipping2 {
+   width: 100%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   padding: -5px;
+   font-size: 12px;
+   margin-top: 10px;
+}
+
+.shipping3 {
+   width: 100%;
+   margin-top: 25px;
+   height: 50px;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   padding: -5px;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.shipping3>div {
+   width: 48%;
+   height: 50px;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+.shipping3>div>input {
+   width: 98%;
+   height: 97%;
+   font-family: 'Montserrat', sans-serif;
+   background-color: rgb(232, 232, 232);
+   color: rgb(0, 0, 0);
+   border: 5px rgb(0, 0, 0);
+
+}
+
+
+.shipping4 {
+   margin-top: 18px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 13px;
+   margin-bottom: 18px;
+}
+
+.shipping5 {
+   margin-top: 18px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 13px;
+   margin-bottom: 18px;
+   display: flex;
+   /* border: 1px solid red ; */
+   justify-content: space-between;
+}
+
+.shipping5>div {
+   width: 48%;
+   height: 50px;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+}
+
+#shipBtn {
+   width: 99%;
+   height: 98%;
+   color: white;
+   background-color: black;
+   font-family: 'Montserrat', sans-serif;
+   border-radius: 5px;
+}
+
+.review {
+   width: 97.6%;
+   ;
+   height: 100px;
+   /* border: 1px solid red; */
+   margin-bottom: 10px;
+   margin-top: 10px;
+   font-family: 'Montserrat', sans-serif;
+   background-color: white;
+   color: grey;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+
+}
+
+.payment {
+   width: 97.6%;
+   height: 100px;
+   /* border: 1px solid red; */
+   margin-bottom: 10px;
+   margin-top: 10px;
+   font-family: 'Montserrat', sans-serif;
+   background-color: white;
+   color: grey;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+}
+
+.checkout {
+   width: 97.6%;
+   height: 120px;
+   /* border: 1px solid red; */
+   margin-bottom: 10px;
+   margin-top: 10px;
+   font-family: 'Montserrat', sans-serif;
+   background-color: white;
+   color: grey;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+
+}
+
+.checkout>img {
+   width: 65%;
+   height: 100%;
+   margin: auto;
+}
+
+.productshipping1 {
+   width: 96.2%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   padding: 5px;
+   font-size: 25px;
+   font-weight: bold;
+   background-color: white;
+   padding-bottom: 20px;
+}
+
+.productshipping2 {
+   width: 97.6%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   padding: 3px;
+   font-size: 12px;
+   background-color: white;
+   font-weight: bold;
+}
+
+.productshipping3 {
+   width: 97.6%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   padding: 3px;
+   font-size: 12px;
+   background-color: white;
+   padding-bottom: 40px;
+}
+
+.productshipping4 {
+   width: 97.6%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   padding: 3px;
+   font-size: 12px;
+   font-weight: bold;
+   background-color: white;
+}
+
+.productshipping5 {
+   width: 97.6%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   padding: 3px;
+   font-size: 12px;
+   background-color: white;
+   padding-bottom: 40px;
+}
+
+.productshipping6 {
+   width: 97.6%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   padding: 3px;
+   font-size: 12px;
+   font-weight: bold;
+   background-color: white;
+}
+
+.productshipping7 {
+   width: 97.6%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   padding: 3px;
+   font-size: 12px;
+   background-color: white;
+   padding-bottom: 40px;
+}
+
+.productshipping8 {
+   width: 97.6%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   padding: 3px;
+   font-size: 12px;
+   font-weight: bold;
+   background-color: white;
+}
+
+.productshipping9 {
+   width: 97.6%;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   padding: 3px;
+   font-weight: bold;
+   font-size: 13px;
+   background-color: white;
+   padding-bottom: 40px;
+   text-align-last: right;
+}
+
+.productshipping10 {
+   width: 97.6%;
+   margin-top: 10px;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+
+}
+
+hr{
+   margin: 0px;
+}
+
+.shopmore{
+   width: 100%;
+   height: 50px;
+   font-size: 15px;
+   color: white;
+   margin-top: 15px;
+   font-family: 'Montserrat', sans-serif; 
+   background: black;
+}
+
+.productshipping11 {
+   width: 97.6%;
+   margin-top: 10px;
+   height: auto;
+   /* border: 1px solid red ; */
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+
+}
+
+.modify{
+   width: 100%;
+   height: 50px;
+   font-size: 15px;
+   color: white;
+   margin-top: 15px;
+   font-family: 'Montserrat', sans-serif; 
+   background: black;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
