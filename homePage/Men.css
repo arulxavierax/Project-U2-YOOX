@@ -139,12 +139,16 @@ a:hover {
 /* ----------------------Navbar End ------------------------------------*/
 
 
-/* Women Page */
+/* Men Page */
 
 #border{
     background-color:  #f3f3f3; 
     /* position: static; */
 
+}
+.section1>div{
+    width:90%;
+    margin: auto;
 }
 .section1>div>img{
     height: auto;

@@ -146,6 +146,10 @@ a:hover {
     /* position: static; */
 
 }
+.section1>div{
+    width:90%;
+    margin: auto;
+}
 .section1>div>img{
     height: auto;
     display: block;
