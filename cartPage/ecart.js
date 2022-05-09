@@ -46,9 +46,13 @@ function display(data){
         itemred.addEventListener("click",function(){
             subfunction(ele)
         })
+        var count=0
         var offPrice=Number(ele.productDiscountPrice.replace("US $",""))
         function subfunction(ele){
-        td5.innerText="$"+count--*offPrice
+        count--
+        td5.innerText="$"+count*offPrice
+        // localStorage.setItem("count",(count))
+        
         }
         
         var item=document.createElement("td")
@@ -58,10 +62,12 @@ function display(data){
         item.addEventListener("click",function(){
             addfunction(ele)
         })
-        var count=1
+        
         var offPrice=Number(ele.productDiscountPrice.replace("US $",""))
         function addfunction(ele){
-        td5.innerText="$"+count++*offPrice
+        count++
+        td5.innerText="$"+count*offPrice    
+        // localStorage.setItem("count",(count))
         }
        
 
@@ -126,6 +132,16 @@ var totalh=document.createElement("h3")
 // totalh.innerText=(addd1+add2)-500
 // document.querySelector("#ordertotal").append(totalh)
 totalh.innerText=addd1+add2
+if(totalh.innerText==19.95){
+    totalh.innerText=""
+    document.querySelector("#ordertotal").append(totalh)
+    // alert("Add items to Bag")
+    // event.preventDefault()
+}
+else{
+    totalh.innerText=addd1+add2
+    document.querySelector("#ordertotal").append(totalh)
+}
 document.querySelector("#ordertotal").append(totalh)
 
 var payment=document.createElement("h3")
@@ -138,11 +154,11 @@ var btn=document.querySelector("#btn")
 btn.addEventListener("click",function(){
     promosubmit()
 })
-// if(JSON.parse(localStorage("cartproduct")))
 function promosubmit(){
     event.preventDefault()
+    
     var promo=document.querySelector("#promo").value
-    if(promo=="MASAI360"){
+    if(promo=="MASAI360" && add2+addd1>2500){
         alert("Promocode Added Successfully")
         totalh.innerText=(addd1+add2)-500
         document.querySelector("#ordertotal").append(totalh)
