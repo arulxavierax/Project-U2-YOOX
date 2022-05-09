@@ -193,7 +193,7 @@ a:hover {
     width:auto;
     height: auto;
     background-color: white;
-    left:570px;
+    left:500px;
     bottom:200px;
     cursor: pointer;
 
@@ -291,7 +291,7 @@ a:hover {
     height:auto;
     margin-top: 72px;
     display: flex;
-    padding:75px 
+    padding:75px ;
 }
 
 .section3>div{
