@@ -29,11 +29,11 @@ A Navbar to sign in or to register a account in the website and to search for a 
 You need to create an account to Login to the website, Register helps to create an account where you have to fill form with relevant details.
 You can login to your account by using Email and Password that you used while building your account.
 
->- Registration
+>- Registration Form
 ![Screenshot (50)](https://user-images.githubusercontent.com/103952018/191086662-152bd1b6-32e1-4ecc-96fa-fb0f4e53a930.png)
 
 
->- Login
+>- Login Form
 ![Screenshot (51)](https://user-images.githubusercontent.com/103952018/191086165-ac7fd5df-0739-4caa-8c93-a794cbba4f44.png)
 
 ***Products List Page***
@@ -59,3 +59,12 @@ If you don't need a selected product you can delete , Coupon code can be added a
 ![Screenshot (54)](https://user-images.githubusercontent.com/103952018/191092129-ca3393b0-73e0-4869-a0a8-4d9245504a84.png)
 
 ![Screenshot (55)](https://user-images.githubusercontent.com/103952018/191092249-979126b1-bb4e-4ae9-8f50-a2cd32edb5ea.png)
+
+***Shiping Page***
+=====
+The final step is to provide your correct shipping , payment details and you have successfully shopped your favourite product.The product will arrive at you door step by the date mentioned.
+
+![Screenshot (56)](https://user-images.githubusercontent.com/103952018/191093742-ae8d1d4d-d0a9-4be3-a85f-5dabcd359cd0.png)
+
+
+
