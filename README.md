@@ -6,7 +6,7 @@ A Collaborative project completed in five day along with five Web Developers.
 Features
 =======
 >- Home Page & Navbar
->- SignIn / SignUp
+>- SignIn / SignUp functionality
 >- Products List Page
 >- Various types of filtering & sorting
 > Products Details Page
