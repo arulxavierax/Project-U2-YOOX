@@ -12,3 +12,6 @@ Features
 > Products Details Page
 >- Cart Page
 >- Shiping Page
+
+
+***Home Page***
