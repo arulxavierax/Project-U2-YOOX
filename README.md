@@ -30,7 +30,8 @@ You need to create an account to Login to the website, Register helps to create 
 You can login to your account by using Email and Password that you used while building your account.
 
 >- Registration
-![Screenshot (50)](https://user-images.githubusercontent.com/103952018/191085347-d4c45c25-dcbd-483b-bb51-a89ffeaf118b.png)
+![Screenshot (50)](https://user-images.githubusercontent.com/103952018/191086662-152bd1b6-32e1-4ecc-96fa-fb0f4e53a930.png)
+
 
 >- Login
 ![Screenshot (51)](https://user-images.githubusercontent.com/103952018/191086165-ac7fd5df-0739-4caa-8c93-a794cbba4f44.png)
