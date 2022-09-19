@@ -12,7 +12,7 @@ Features
 >- Login / Register functionality
 >- Products List Page
 >- Various types of filtering & sorting
-> Products Details Page
+>- Products Details Page
 >- Cart Page
 >- Shiping Page
 
@@ -51,3 +51,11 @@ Product Details Page the full details of a product, in this page you will be abl
 
 ![Screenshot (53)](https://user-images.githubusercontent.com/103952018/191090131-34775aa1-765f-4330-9222-ce1c692cda7c.png)
 
+***Cart Page***
+====
+In the Cart Page you can see the products that you have selected to buy, you can add multiple quantity of the products as per your need.
+If you don't need a selected product you can delete , Coupon code can be added and the grand sum will reflect according to the changes that you have made.
+
+![Screenshot (54)](https://user-images.githubusercontent.com/103952018/191092129-ca3393b0-73e0-4869-a0a8-4d9245504a84.png)
+
+![Screenshot (55)](https://user-images.githubusercontent.com/103952018/191092249-979126b1-bb4e-4ae9-8f50-a2cd32edb5ea.png)
