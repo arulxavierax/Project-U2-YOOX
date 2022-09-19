@@ -5,7 +5,7 @@ A Collaborative project completed in five day along with five Web Developers.
 
 Features
 =======
->- SignIn / SignU
+>- SignIn / SignUp
 >- Products List Page
 >- Various types of filtering & sorting
 > Products Details Page
